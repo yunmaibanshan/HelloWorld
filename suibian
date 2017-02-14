@@ -1,1 +1,2 @@
+export AWS_CONFIG_FILE=/home/centos/helloworld/MyF1.conf
 aws ec2 run-instances --image-id ami-56e71440 --count 1 --key-name MyF1 --instance-type f1.2xlarge --security-groups launch-wizard-36 --region us-east-1 --endpoint https://ec2-pinotage.amazonaws.com
