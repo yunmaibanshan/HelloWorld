@@ -1,1 +1,1 @@
-export AWS_CONFIG_FILE=/tmp/helloworld/MyF1.conf
+export AWS_CONFIG_FILE=$(pwd)/MyF1.conf
