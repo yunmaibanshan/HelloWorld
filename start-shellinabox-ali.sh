@@ -1,4 +1,4 @@
 #!/bin/sh
 
 killall shellinaboxd
-shellinaboxd -t -s /:SSH:59.110.142.10 -b
+shellinaboxd -t -b -c /tmp -s /:SSH:59.110.142.10
