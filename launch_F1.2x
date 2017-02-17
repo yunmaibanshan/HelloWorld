@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-d14f81c7 --count 1 --key-name MyF1 --instance-type f1.2xlarge --security-groups launch-wizard-35 --region us-east-1 --endpoint https://ec2-pinotage.amazonaws.com
